@@ -1,0 +1,11 @@
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+    <property name="connection.url">jdbc:jtds:sqlserver://DESKTOP-LNONE1P:1433/neon;instance=SQLEXPRESS</property>
+    <property name="connection.username"> fchebbo</property>
+    <property name="connection.password">fchebbo</property>
+    <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+    <property name="hbm2ddl.auto">update</property>
+    <property name="show_sql">true</property>
+  </session-factory>
+</hibernate-configuration>
